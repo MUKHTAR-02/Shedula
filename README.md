@@ -32,12 +32,24 @@ Follow these steps to run the application locally:
 ```
 
 ## Screenshots
+- Here are some screenshots of the app in action:
+
+### Full View
+![Full View](https://github.com/MUKHTAR-02/Shedula/blob/main/public/Screenshots/full%20view.png?raw=true)
+
+### Week View
+![Week View](https://github.com/MUKHTAR-02/Shedula/blob/main/public/Screenshots/week%20view.png?raw=true)
+
+### Day View
+![Day View](https://github.com/MUKHTAR-02/Shedula/blob/main/public/Screenshots/day%20view.png?raw=true)
+
+### Agenda View
+![Agenda View](https://github.com/MUKHTAR-02/Shedula/blob/main/public/Screenshots/agenda%20view.png?raw=true)
 
 ## Acknowledgements
-React
-React Big Calendar 
-React Datepicker 
-Date-fns  
+- React Big Calendar 
+- React Datepicker 
+- Date-fns  
 
 ## Conclusion
 
