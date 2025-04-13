@@ -63,3 +63,14 @@ button:hover {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+.rbc-btn-group button {
+  background: white;
+  border: 1px solid #ccc;
+  color: black;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.rbc-btn-group button:focus {
+  outline: none;
+}

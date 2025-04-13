@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Shedula - A Simple Event Scheduling App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Shedula is a simple event scheduling application built with React and React Big Calendar. It allows users to create, view, and manage events with a calendar interface. Users can add events with titles, start and end dates, and view them on a monthly, weekly, or daily view.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Event Management: Add events with titles, start, and end dates.
+- Local Storage: Events are stored in the browser's local storage, so they persist even after refreshing the page.
+- Responsive Design: The calendar view is designed to work well on both desktop and mobile screens.
+- Multiple Views: Users can toggle between month, week, and day views to better manage their events.
+- Date Picker Integration: Use date pickers to select start and end dates for events.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React: A JavaScript library for building user interfaces.
+- React Big Calendar: A flexible and customizable calendar component for React.
+- React Datepicker: A simple and reusable date picker component for React.
+- Date-fns: A modern JavaScript date utility library.
+- Local Storage: Used for persisting event data across sessions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+Follow these steps to run the application locally:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone, Install dependencies and start the app by following commands:
 
-### `npm run build`
+```bash
+   git clone https://github.com/yourusername/shedula.git
+   cd shedula
+   npm install
+   npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Acknowledgements
+React
+React Big Calendar 
+React Datepicker 
+Date-fns  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Conclusion
 
-### `npm run eject`
+Shedula is a simple yet powerful tool for managing events and staying organized. With an intuitive interface powered by React and responsive calendar views, it offers an easy way to schedule and track events. By leveraging local storage, events remain persistent even when the page is refreshed. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Whether you're managing personal events or looking for a solution to schedule professional appointments, Shedula provides an efficient, lightweight solution for all your scheduling needs. Feel free to contribute to the project and make it even better!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Thank you for checking out Shedula! We hope it makes your scheduling easier and more efficient.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to give me feedback, I will be happy to know...

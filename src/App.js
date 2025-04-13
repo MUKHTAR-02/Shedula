@@ -1,4 +1,3 @@
-// App.js
 import React, { useState, useEffect } from "react";
 import { Calendar, dateFnsLocalizer } from "react-big-calendar";
 import format from "date-fns/format";
@@ -42,6 +41,9 @@ const App = () => {
       : [];
   });
 
+  const [view, setView] = useState("month"); // Track the current view (month, week, day, agenda)
+  const [currentDate, setCurrentDate] = useState(new Date()); // Track current date to navigate
+
   useEffect(() => {
     localStorage.setItem("calendarEvents", JSON.stringify(allEvents));
   }, [allEvents]);
@@ -64,6 +66,10 @@ const App = () => {
 
     setAllEvents([...allEvents, { ...newEvent, start, end }]);
     setNewEvent({ title: "", start: "", end: "" });
+  };
+
+  const handleNavigate = (date) => {
+    setCurrentDate(date); // Update the current date on navigation (next, back, today)
   };
 
   return (
@@ -99,17 +105,20 @@ const App = () => {
         </button>
       </div>
 
+      {/* Calendar Component */}
       <Calendar
         localizer={localizer}
         events={allEvents}
         startAccessor="start"
         endAccessor="end"
-        defaultView="month"
-        views={["month", "week", "day"]}
+        view={view} // Set the current view using the state
+        views={["month", "week", "day", "agenda"]} // Add agenda view
+        onView={(newView) => setView(newView)} // Ensure view updates correctly
+        onNavigate={handleNavigate} // Handle navigation (next, back, today)
+        date={currentDate} // Set the current date for navigation
         style={{ height: 500, margin: "50px auto", maxWidth: "90%" }}
         popup
       />
-
     </div>
   );
 };
